@@ -1,0 +1,238 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    /* padding: 0; */
+    /* box-sizing: inherit; */
+}
+*:before, *:after {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,.how-we-work-para{
+    font-family: 'DM Serif Display', serif;
+}
+h2,h3{
+    color: hsl(270, 9%, 17%);
+}
+h4{
+    color:  hsl(273, 4%, 51%);
+}
+button{
+    background-color: hsl(256, 26%, 20%);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    
+}
+/* navigation */
+.first-nav{
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 1.5rem;
+    font-size: 1.5em;
+    /* background-color: red; */
+} 
+ul{
+    list-style: none;
+}
+ ul li{
+    display: inline-block;
+    padding-right: 1rem;
+}
+nav ul li a{
+    font-size: .6em;
+    color: hsl(216, 30%, 68%) ;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    color:  hsl(256, 26%, 20%);
+}
+.active{
+    background-color: hsl(256, 26%, 20%);
+    color: #ffffff;
+    padding: .7rem;
+}
+.active:hover{
+    color: #ffffff;
+}
+
+/* Header */
+header{
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 85vh;
+    padding: 8rem 14rem 8rem 14rem;
+}
+header div{
+    color: #ffffff;
+    width: 52%;
+    border-width: 5vw;
+}
+hr{
+    width: 20%;
+}
+h1{
+    padding-top: 3rem;
+   font-size: 4rem;  
+}
+header div p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.header div p{
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+}
+
+.designhead{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 1;
+    
+}
+.man{
+    position: absolute;
+    right: 200px;
+    top: 200px; 
+}
+.imagelower{
+    position: absolute;
+    bottom: -300px;
+    left: 0;
+    z-index: 1;
+}
+.wrapper{
+    margin-top: 18rem;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+main h2{
+    padding-top: 4rem;
+    font-size: 4rem;
+}
+.differnt-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.differnt-section{
+    width: 30%;
+}
+.differnt-section p{
+    color: hsl(273, 4%, 51%);
+}
+h3{
+    margin: 2rem 0 1.2rem 0;
+    font-size: 1.9rem;
+}
+.differnt-section p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+#how-we-work{
+    background-color:  hsl(256, 26%, 20%);  
+    color: #ffffff; 
+    /* padding: 0; */
+    margin: 6rem 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#how-we-work p{
+    font-size: 3.5rem;
+    padding: 2.2rem 3rem;
+    /* border: 3px solid red; */
+}
+#how-we-work button{
+    padding: .7rem 2rem;
+    font-size: 1rem;
+    position: relative;
+    left: 850px;
+    bottom: 120px;
+
+}
+footer{
+    background-color:  hsl(0, 0%, 98%);
+}
+.footer-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-bottom: 1px solid hsl(216, 30%, 68%);
+    z-index: 1;
+
+}
+.footer-div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 3rem 0 0 0;
+    text-transform: uppercase;
+}
+.our-company{
+    flex-basis: 23%;
+}
+.help-me{
+    flex-basis: 23%;
+}
+.contact{
+    flex-basis: 23%;
+}
+.others{
+    flex: 30%;
+}
+.footer-div h4{
+    margin-bottom: 2rem;
+    
+}
+.footer-div p{
+    margin-top: 1rem;
+    font-size: .8rem;
+}
+.footer-div a{
+    color: hsl(270, 9%, 17%);
+    font-weight: 700;
+
+}
+.footer-div p a:hover{
+    text-decoration: underline;
+
+}
+.icon:hover{
+    color: hsl(0, 0%, 0%);
+}
+footer main{
+    position: relative;
+   bottom: 200px;
+}
+.attribution { 
+    font-size: 1rem; 
+    text-align: center;
+    font-family: monospace ;
+}
+.attribution a { color: hsl(228, 45%, 44%); 
+}
+
+/* for mobile */
+@media screen and (max-width:480px) and (min-width:299px){
+
+}
+
+/* for tablets */
+@media screen and (max-width:768px) and (min-width:480px){
+    
+}
