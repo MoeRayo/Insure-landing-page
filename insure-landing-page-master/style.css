@@ -1,4 +1,5 @@
 
+
 * {
 box-sizing: border-box;
 margin: 0;
@@ -98,7 +99,10 @@ right: 0;
 z-index: 1;
 
 }
-
+#viewplans{
+    padding: .8rem 1rem;
+    margin: 1rem;
+}
 .imagelower{
 position: absolute;
 bottom: -300px;
@@ -547,6 +551,47 @@ header div p{
         /* bottom: 100px; */
         
         }
+        .footer-nav{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 2rem 0;
+            border-bottom: 1px solid hsl(216, 30%, 68%);
+            z-index: 1;
+            
+            }
+            .footer-div{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding: 3rem 0 0 0;
+            text-align: center;
+            }
+            .our-company{
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+
+            }
+            .help-me{
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+            }
+            .contact{
+            flex-basis: 100%;
+            margin-bottom: 2rem;
+
+            }
+            .others{
+            flex: 100%;
+            }
+            .footer-div h4{
+            margin-bottom: 3rem;
+            
+            }
+            .footer-div p{
+            margin-top: 1rem;
+            font-size: 1rem;
+            }
 }
 
 
